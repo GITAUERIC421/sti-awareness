@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Hay",
+        "Sasa",
+        "Good Evening",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hello how can i help you today",
+        "Hi how can i help you today",
+        "Hi there how can i help you today"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later",
+        "Have a nice day",
+        "Bye! Come back again"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're most welcome!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Who you are?"
+      ],
+      "responses": [
+        "I am a virtual medical assistance chatbot"
+      ]
+    },
+    {
+      "tag": "symptoms-gn",
+      "patterns": [
+        "What are the symptoms of gn",
+        "Why is our payment delayed",
+        "we have not been paid"
+      ],
+      "responses": [
+        "am following your payment be assured you will paid soonest possible. ",
+        "Iam sorry for the delay its not intentional do understand",
+        "We are following up on payments. Will give you updates incase you will not have been paid. My sincere apologies for inconveniences caused. Blessed day"
+      ]
+    }
+  ]
+}
